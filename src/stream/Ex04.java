@@ -29,6 +29,7 @@ public class Ex04 {
 		// 스트림 요소의 합 구하기
 		IntStream stream3 = Arrays.stream(intArr);
 		System.out.println(stream3.sum()); // 기본형 스트림에서만 사용 가능
+		System.out.println();
 
 		// 초기값을 넣고, 반복 작업 수행
 		IntStream stream4 = Arrays.stream(intArr);
